@@ -878,6 +878,9 @@ section {
 	padding: .03em .4em;
 	border-radius: 100%;
 }
+.txt .break{
+	word-wrap: break-word;
+}
 .txt .nowrap{
 	white-space: nowrap;
 	display: inline-block;
