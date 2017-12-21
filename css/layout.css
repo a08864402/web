@@ -872,11 +872,12 @@ section {
 	text-align: center;
 	margin-bottom: 3em;
 }
-.txt .stepnum{
+.stepnum{
 	background: #d82733;
 	color:#fff;
 	padding: .03em .4em;
 	border-radius: 100%;
+	font-style: normal;
 }
 .txt .break{
 	word-wrap: break-word;
