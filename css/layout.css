@@ -148,9 +148,9 @@ header {
 	padding: 9px 0;
 }
 .nav-logo span {
-	font-size: 1em;
+	font-size: 1.4em;
 	line-height: 55px;
-	color: #cb261d;
+	color: #373737;
 	padding: 0 8px;
 	float: left;
 	display: inline;
@@ -158,7 +158,7 @@ header {
 .nav-logo span i{
     font-size: 30px;
     margin-right: .3em;
-	vertical-align: -0.3em;
+	vertical-align: -0.2em;
 }
 .nav-logo #l2 {
 }
@@ -410,7 +410,7 @@ header {
 	cursor: pointer;
 }
 .caption h3:hover {
-	background-color: #0000009f;
+	background-color: rgba(0,0,0,.6);
 	color: #fff!important;
 }
 .slides h3 {
@@ -877,6 +877,10 @@ section {
 	text-align: center;
 	margin-bottom: 3em;
 }
+.txt img{
+	text-align: center;
+	display: initial;
+}
 .stepnum{
 	background: #d82733;
 	color:#fff;
@@ -890,6 +894,10 @@ section {
 .txt .nowrap{
 	white-space: nowrap;
 	display: inline-block;
+	border-radius: 10px;
+	background: #eee;
+	padding: 2px 10px;
+	margin: 2px;
 }
 .titleb{
 	text-align: center;
@@ -935,7 +943,7 @@ section {
 	text-align: center!important;
 }
 .txt .tdb{
-	color:#288dd8;
+	color:#000000;
 }
 
 #function .row > .content > .columns {
